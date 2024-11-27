@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CookIt Recipe Filter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CookIt </h1>
+    <p>Filter recipes by dietary preferences!</p>
+
+  </header>
+  <main>
+    <section class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="vegan">Vegan</button>
+      <button class="filter-btn" data-filter="gluten-free">Gluten-Free</button>
+      <button class="filter-btn" data-filter="vegetarian">Vegetarian</button>
+      <button class="filter-btn" data-filter="Protein Foods">Protein Foods</button>
+      <button class="filter-btn" data-filter="Starchy Foods">Starchy Foods</button>
+    </section>
+    <section class="recipes" id="recipe-container">
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
